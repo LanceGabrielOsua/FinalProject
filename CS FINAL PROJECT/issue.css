@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+.content {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    margin-bottom: 10px;
+}
+.cta {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.navbar {
+    display: flex; /* Align buttons horizontally */
+    justify-content: center; /* Center the buttons */
+    background-color: #00796b; /* Background color for the navbar */
+    padding: 15px 0; /* Padding around the navbar */
+    border-radius: 5px; /* Rounded corners for the navbar */
+}
+.navbar {
+    display: flex; /* Align buttons horizontally */
+    justify-content: center; /* Center the buttons */
+    background-color:rgba(0, 121, 107, 0.7); 
+    padding: 15px 0; /* Padding around the navbar */
+    border-radius: 5px; /* Rounded corners for the navbar */
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px; /* Padding inside buttons */
+    text-decoration: none;
+    color: white; /* Text color */
+    background-color:rgba(0, 121, 107, 0.7); 
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 10px; /* Margin between buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.nav-button:hover {
+    background-color: #00796b; /* Lighten button background on hover */
+}
+
+.nav-button:active {
+    transform: scale(0.95); /* Shrink when clicked */
+}
