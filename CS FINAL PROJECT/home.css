@@ -104,7 +104,7 @@ video {
     margin-bottom: 20px;
     text-align: center; 
 }
-a.cta:hover {
+a.cta:hover { /* Use of Pseudo-Classes*/
     background-color: #004d40;
     color: #e0f7fa;
     font-size: 1.1em;
