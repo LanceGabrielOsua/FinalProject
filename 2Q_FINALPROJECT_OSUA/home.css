@@ -205,6 +205,6 @@
         display: none; /* This hides the audio player completely */
     }
     p:first-of-type {
-        color: black; /* Styles the first paragraph inside a parent */
+        color: gray; /* Styles the first paragraph inside a parent */
     }
 
